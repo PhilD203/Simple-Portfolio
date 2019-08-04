@@ -7,12 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
     <title>Phil Dugliss Portfolio</title>
 </head>
 
 <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#introSection">PD</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -20,34 +23,40 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#introSection">Intro <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#aboutSection">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="#projectSection">Projects</a>
+                </li>
+                <li class="icon">
+                    </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">LinkedIn</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Email</a>
                 </li>
             </ul>
         </div>
     </nav>
     <br>
-    <div class="jumbotron jumbotron-fluid" id="IntroSection">
+    <div class="jumbotron jumbotron-fluid" id="introSection">
         <div class="container">
-            <h1 class="display-4">Fluid jumbotron</h1>
-            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <h1 class="display-4" id="name">Phil Dugliss</h1>
+            <p class="lead" id="hobbies"> Educator | Musician | Snowboarder | Traveler | Developer.</p>
         </div>
     </div>
     <div class="jumbotron jumbotron-fluid" id="aboutSection">
-            <div class="container">
-                <h1 class="display-4">Fluid jumbotron</h1>
-                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-            </div>
+        <div class="container">
+            <h1 class="display-4">About Section</h1>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
         </div>
+    </div>
     <div class="container-fluid" id="projectSection">
+        <h1>Project Section</h1>
         <div class="row">
             <div class="col-sm-4">
                 <div class="card" style="width: 18rem;">
@@ -123,7 +132,7 @@
         <footer class="page-footer font-small blue">
 
             <div class="footer-copyright text-center py-3">© 2018 Copyright:
-                
+
             </div>
 
         </footer>
